@@ -25,7 +25,7 @@
 # else:
 #     print("NO")
 
-# print("@" * 10)
+
 
 
 # name = input("what is your name  ")
