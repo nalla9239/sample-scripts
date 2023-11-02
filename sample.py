@@ -1,6 +1,3 @@
-# ls = [9,5,7,3]
-# ls.append(1)
-# print(ls)
 
 # sum = 1
 # for a in ls:
