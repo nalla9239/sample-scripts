@@ -136,7 +136,40 @@ print("Done")
 
 
 
+i = 0
+while i <=4:
+    a = input("> ")
+    i = i + 1
+    if a == "help":
+        print("""Start - To start the car
+        Stop - To stop the car
+        Quit - To exit""")
+    elif a == "start":
+        print("Car started....Ready to go!")
+    elif a == "stop":
+        print("Car stopped")
+    elif a == "quit":
+        print("Exit")
+    else:
+        print("error")
 
+
+
+a = "" 
+while a != "quit":
+        a = input("> ")
+        if a == "help":
+            print("""Start - To start the car
+        Stop - To stop the car
+        Quit - To exit""")
+        elif a == "start":
+            print("Car started....Ready to go!")
+        elif a == "stop":
+            print("Car stopped")
+        elif a == "quit":
+            print("Exit")
+        else:
+            print("error")
 
 
 
