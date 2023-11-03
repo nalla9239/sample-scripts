@@ -108,14 +108,14 @@
 #     print("Name looks good")
 
 
-weight = input("weight ")
-converter = input("(L)bs or (K)g: ")
-Lbs = float(weight) * 2.20
-Kg = float(weight) * 0.45
-if converter == "L":
-    print(Lbs)
-else:
-    print(Kg)
+# weight = input("weight ")
+# converter = input("(L)bs or (K)g: ")
+# Lbs = float(weight) * 2.20
+# Kg = float(weight) * 0.45
+# if converter == "L":
+#     print(Lbs)
+# else:
+#     print(Kg)
 
 
 # weight = input("weight ")
@@ -126,6 +126,14 @@ else:
 #     print(Lbs)
 # else:
 #     print(Kg)
+
+
+i  = 1
+while i <= 10:
+    print(i)
+    i = i + 1
+print("Done")
+
 
 
 
