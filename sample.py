@@ -57,9 +57,9 @@
 # print(round(x))
 # print(abs(-2.9))
 
-# import math
 
 
+# ****if, elif, else loop****
 # credit_score = 900
 # if credit_score <= 700:
 #     print("put down 10%")
@@ -99,7 +99,7 @@
 #     print("It's hot nor cold")
 
 
-# name = "Akarsh alalalalalalalalalalalalalalallalalalalalalalalallalalalallallalallalallalala"
+# name = input("name: ")
 # if len(name) < 3:
 #     print("Name must be atleast 3 characters")
 # elif len(name) > 50:
@@ -127,6 +127,7 @@
 # else:
 #     print(Kg)
 
+# ****while loop****
 
 # i  = 1
 # while i <= 10:
@@ -171,12 +172,14 @@
 #         else:
 #             print("error")
 
+
+# ****for and nested for loop example.py****
+
 # for item in "Python":
 #     print(item)
-
+# for and nested for loop example.py
 
 # ls = [10,20,30]
-
 # sum = 0
 # for item in ls:
 #     sum = sum + item
@@ -202,6 +205,9 @@
 #     for b in ls2:
 #         c = a * b
 #         print(c)
+
+
+
    
    
 
