@@ -128,48 +128,92 @@
 #     print(Kg)
 
 
-i  = 1
-while i <= 10:
-    print(i)
-    i = i + 1
-print("Done")
+# i  = 1
+# while i <= 10:
+#     print(i)
+#     i = i + 1
+# print("Done")
 
 
 
-i = 0
-while i <=4:
-    a = input("> ")
-    i = i + 1
-    if a == "help":
-        print("""Start - To start the car
-        Stop - To stop the car
-        Quit - To exit""")
-    elif a == "start":
-        print("Car started....Ready to go!")
-    elif a == "stop":
-        print("Car stopped")
-    elif a == "quit":
-        print("Exit")
-    else:
-        print("error")
+# i = 0
+# while i <=4:
+#     a = input("> ")
+#     i = i + 1
+#     if a == "help":
+#         print("""Start - To start the car
+#         Stop - To stop the car
+#         Quit - To exit""")
+#     elif a == "start":
+#         print("Car started....Ready to go!")
+#     elif a == "stop":
+#         print("Car stopped")
+#     elif a == "quit":
+#         print("Exit")
+#     else:
+#         print("error")
 
 
 
-a = "" 
-while a != "quit":
-        a = input("> ")
-        if a == "help":
-            print("""Start - To start the car
-        Stop - To stop the car
-        Quit - To exit""")
-        elif a == "start":
-            print("Car started....Ready to go!")
-        elif a == "stop":
-            print("Car stopped")
-        elif a == "quit":
-            print("Exit")
-        else:
-            print("error")
+# a = "" 
+# while a != "quit":
+#         a = input("> ")
+#         if a == "help":
+#             print("""Start - To start the car
+#         Stop - To stop the car
+#         Quit - To exit""")
+#         elif a == "start":
+#             print("Car started....Ready to go!")
+#         elif a == "stop":
+#             print("Car stopped")
+#         elif a == "quit":
+#             print("Exit")
+#         else:
+#             print("error")
+
+# for item in "Python":
+#     print(item)
+
+
+# ls = [10,20,30]
+
+# sum = 0
+# for item in ls:
+#     sum = sum + item
+# print(f"Total = {sum}")
+
+# for x in range(4):
+#     for y in range(3):
+#         print(f"({x} , {y})")
+
+
+
+
+# for x in range(4):
+#     for y in range(3):
+#         for z in range(2):
+#             print(f"({x} , {y} , {z})")
+
+
+
+# ls1 = [5,2,5,2,2]
+# ls2 = ["x"]
+# for a in ls1:
+#     for b in ls2:
+#         c = a * b
+#         print(c)
+   
+   
+
+   
+    
+
+
+
+    
+
+
+
 
 
 
