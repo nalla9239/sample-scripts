@@ -10,7 +10,8 @@
 
 
 # ls = [9,5,7,3]
-# ls.insert(0,1)
+# ls.append(1)
+# ls.insert(0,6)
 # print(ls)
 
 # sum = 1
@@ -205,6 +206,68 @@
 #     for b in ls2:
 #         c = a * b
 #         print(c)
+
+
+# ****Lists****
+# ****find the largest number in list****
+# ls = [2,4,6,8,10]
+# max = ls[0]
+# for a in ls:
+#     if a > max:
+#       max = a
+# print(a)
+
+
+# ****2D lists or tow-dimensional lists****
+
+# matrix = [[1,2,3],
+#           [4,5,6],
+#           [7,8,9]]
+# print(matrix[0] [2])
+# for rows in matrix:
+#     for items in rows:
+#          print(items)
+
+
+# list = [2,3,5,2,8]
+# print(list.count(8))
+# # print(list.clear())
+# print(list.index(5))
+# list.reverse()
+# print(list)
+
+# **** removes duplicates in list****
+# list = [3,9,6,3,1,9,1,2]
+# list1 = []
+# for num in list:
+#     if num not in list1:
+#         list1.append(num)
+# print(list1)
+      
+# ****To find greater or lesser numbers in list****
+# list = [2,4,3,9]
+# list1 =[]
+# for num in list:
+#     if num < 6:
+#         list1.append(num)
+# print(list1)     
+
+# ****To find even number****
+# list = [2,4,6,5,1,9]
+# list1 = []
+# for nums in list:
+#     if nums % 2 == 0:
+#         list1.append(nums)
+# print(list1)  
+
+# ****To find odd number****
+# list = [1,3,5,2,6]
+# list1 = []
+# for nums in list:
+#     if nums % 2 != 0:
+#         list1.append(nums)
+# print(list1)        
+
 
 
 
