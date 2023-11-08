@@ -266,7 +266,55 @@
 # for nums in list:
 #     if nums % 2 != 0:
 #         list1.append(nums)
-# print(list1)        
+# print(list1)   
+
+
+# ls = [1,1,1,1,1,2,3]
+# count = ls.count(1)
+# print(count)
+        
+
+# ls = [1,2,3]
+# x,y,z = ls
+# print(x)
+
+# ****Dictionaries****
+
+# customers = {"name":"Akarsh",
+#              "email": "akarsh@gmail.com",
+#              "age": 30}
+# print(customers["name"])
+# print(customers.get("age"))
+# print(customers.get("phone"))
+
+
+# phone = input("Phone: ")
+
+# words = {
+#          "1" : "one",
+#          "2" : "Two",
+#          "3" : "Three",
+#          "4" : "Four"   
+#          }
+
+# output = ""                                 
+# for nums in phone:
+#    output += words.get(nums) + " "
+# print(output)
+
+
+# input = input("details: ")
+
+# data = {
+#          "email" : "akarsh@gmail.com",
+#          "age" : "30",
+#          "sex" : "Male"
+# }
+# output = ""
+# for ques in input:
+#     output += data.get(ques)
+# print(output)
+    
 
 
 
