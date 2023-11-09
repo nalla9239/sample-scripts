@@ -306,15 +306,72 @@
 # input = input("details: ")
 
 # data = {
-#          "email" : "akarsh@gmail.com",
-#          "age" : "30",
-#          "sex" : "Male"
+#             "1" : "akarsh@gmail.com",
+#             "2" : "30",
+#             "3" : "Male"
 # }
 # output = ""
 # for ques in input:
 #     output += data.get(ques)
 # print(output)
-    
+
+# **** functions ****
+# def phone_number():
+#     print(9500110969)
+#     print(4704187357)
+
+
+# print("What is your phone number")
+# phone_number()
+# print("Thank You")
+
+
+# **** Parameters ****
+# def details(name):
+#     print(f"Hi {name}")
+#     print("Welcome aboard")
+# details("Akarsh")
+
+# def names(first_name,last_name ):
+#     print(f"Hello {first_name} {last_name}")
+# names("Akarsh", "Nalla")
+
+
+# def addition(n1,n2):
+#     sum = n1+n2
+#     return sum
+# total = addition(1,2)
+# print(total)
+
+# **** keyword Arguments ****
+# def names(first_name,last_name):
+#     print(f"Hi {first_name} {last_name}")
+#     print("Welcome")
+# names("Akarsh",last_name="Nalla")
+
+#  **** return function ****
+# def addition(n1,n2):
+#    return n1 + n2
+# total = addition(2,4)
+# print(total)
+# #     or    
+# print(addition(1,3))
+
+
+# **** Exception ****
+try:
+    age = int(input("age: "))
+    print(age)
+except ValueError:
+    print("Invalid input")
+
+
+
+
+
+
+
+
 
 
 
