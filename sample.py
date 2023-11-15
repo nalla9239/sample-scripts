@@ -394,16 +394,61 @@
 # point2.y = 4
 # print(point2.y)
 
-class Akarsh:
-    def add():
-        print("hello")
+# class Akarsh:
+#     def add(self):
+#         print("hello")
 
-name = Akarsh()
-name.add()
-
-
+# name = Akarsh()
+# name.add()
 
 
+# **** Constructors ****
+# class Point:
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
+#     def move(self):
+#         print("move")
+#     def draw(self):
+#         print("draw")
+
+
+# point = Point(10,20)
+# point.draw()
+# point.move()
+# print(point.x)
+
+
+# class Person:
+#     def talk(self):
+#         print("Telugu")
+# name = Person()
+# name.talk()
+# name.a = "Akarsh"
+# print(name.a)
+
+
+
+# class Person:
+#     def __init__(self, name, talk):
+#         self.name = name
+#         self.talk = talk
+
+# details = Person("Akarsh", "Telugu")
+# print(details.name)
+# print(details.talk)
+
+
+class Person:
+    def __init__(self, name):
+        self.name = name
+    def talk(self):
+        print(f"Hi iam {self.name}")
+
+akarsh = Person("Akarsh Reddy")
+akarsh.talk()
+    
+   
 
 
 
