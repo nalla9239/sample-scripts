@@ -326,11 +326,14 @@
 # print("Thank You")
 
 
-# **** Parameters ****
+# **** Parameters ****                                      
 # def details(name):
 #     print(f"Hi {name}")
 #     print("Welcome aboard")
 # details("Akarsh")
+
+   
+
 
 # def names(first_name,last_name ):
 #     print(f"Hello {first_name} {last_name}")
@@ -359,15 +362,44 @@
 
 
 # **** Exception ****
-try:
-    age = int(input("age: "))
-    print(age)
-except ValueError:
-    print("Invalid input")
+# try:
+#     age = int(input("age: "))
+#     print(age)
+# except ValueError:
+#     print("Invalid input")
+
+# def addition(n1,n2):
+#     sum = n1+n2
+#     print(sum)
+#     # return sum
+# addition(1,2)
 
 
+# **** Class ****
 
+# class Point:
+#     def move(self):
+#         print("move")
+#     def draw(self):
+#         print("draw")
+# point1 = Point()
+# point1.draw()
+# point1.x = 1
+# point1.y = 2
+# print(point1.x)
 
+# point2 = Point()
+# point2.move()
+# point2.x = 3
+# point2.y = 4
+# print(point2.y)
+
+class Akarsh:
+    def add():
+        print("hello")
+
+name = Akarsh()
+name.add()
 
 
 
