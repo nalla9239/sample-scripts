@@ -403,6 +403,7 @@
 
 
 # **** Constructors ****
+
 # class Point:
 #     def __init__(self, x, y):
 #         self.x = x
@@ -439,25 +440,77 @@
 # print(details.talk)
 
 
-class Person:
-    def __init__(self, name):
-        self.name = name
-    def talk(self):
-        print(f"Hi iam {self.name}")
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+#     def talk(self):
+#         print(f"Hi iam {self.name}")
 
-akarsh = Person("Akarsh Reddy")
-akarsh.talk()
+# akarsh = Person("Akarsh Reddy")
+# akarsh.talk()
     
    
+# class numbers:
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
+#     def details(self):
+#         print(f"answer = {self.x, self.y}")
 
-
-
+# total = numbers(1,2)
+# total.details()
 
    
+# class Person:
+#     def name(self):
+#         print("Akarsh")
+#     def age(self):
+#         print(30)
+# p = Person()
+# p.age()
+# p.name()
    
+# **** Inheritance ****   
 
-   
-    
+class Human:
+    def age(self):
+        print(30)
+    def sex(self):
+        print("Male")
+
+class Akarsh(Human):
+    def height(self):
+        print(5.8)
+
+class Kanna(Human):
+    def height(self):
+        print(5.9)
+        
+     
+
+ak = Akarsh()
+ak.age()
+ak.sex()
+ak.height()
+
+k = Kanna()
+k.sex()
+k.height()
+
+
+# class Mammal:
+#     def walk(self):
+#         print("Walk")
+
+# class Dog(Mammal):
+#     pass
+
+# class Cat(Mammal):
+#     pass
+
+# dog1 = Dog()
+# dog1.walk()
+
 
 
 
